@@ -51,4 +51,8 @@ Then clone repo, cd to src folder and run make.
 And finally run tool:
 ```./dropwatch -l kas```
 
-# dropwatch
+# New
+Build for mips to debug mips-linux-kernel
+
+#Changes
+1.modi src/Makefile, add $(CC)

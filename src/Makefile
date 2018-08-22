@@ -14,5 +14,3 @@ dropwatch: $(OBJFILES)
 	$(CC) -I. -I/home/sysware/k2/include -I/home/sysware/k2/include/libnl3/  $(CFLAGS) $<
 clean:
 	rm -f dropwatch *.o
-
-#/k2/rt-n56u/toolchain-mipsel/src/mipsel-linux-uclibc-toolchain/build-binutils/bfd/
