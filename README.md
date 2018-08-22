@@ -53,6 +53,14 @@ And finally run tool:
 
 # New
 Build for mips to debug mips-linux-kernel
+My Route is Phicomm K2(PSG 1218),while use udpxy, can not get mcast data,so i want to use dropwatch to see how the package was droped. 
 
-#Changes
+# Changes
 1.modi src/Makefile, add $(CC)
+
+# Build
+
+build support lib:readline,nl3,binutils-dev,ncurses
+
+cd src
+make 
